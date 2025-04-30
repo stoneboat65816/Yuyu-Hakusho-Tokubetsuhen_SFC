@@ -1,0 +1,1695 @@
+#VAR(Table,TABLE)
+#ADDTBL("Yuyuvn.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $00, 16)
+
+#JMP($310000)
+
+//POINTER #0 @ $1D544 - STRING #0 @ $1D776
+
+#WRITE(Ptr, $1D544)
+//『クリ－－ンヒットォォ～～～～～～～～～!!!』<end>
+<name>đã trúng một đòn trí mạng!!<end>
+
+//POINTER #1 @ $1D546 - STRING #1 @ $1D79C
+
+#WRITE(Ptr, $1D546)
+//『かわしたぁ~!!』<end>
+<name>đã tránh được đòn đánh!!<end>
+
+//POINTER #2 @ $1D548 - STRING #2 @ $1D7B2
+
+#WRITE(Ptr, $1D548)
+//『すかさずジャンプ～～～～～～っ!!』<end>
+Một cú nhảy chớp nhoáng!!<end>
+
+//POINTER #3 @ $1D54A - STRING #3 @ $1D7D2
+
+#WRITE(Ptr, $1D54A)
+//『うけとめたッ!!』<end>
+<name>đã chặn được đòn đánh!!<end>
+
+//POINTER #4 @ $1D54C - STRING #4 @ $1D7E8
+
+#WRITE(Ptr, $1D54C)
+//『おおっと! よりめいた!!』<end>
+Chà chà!<name>loạng choạng rồi!!<end>
+
+//POINTER #5 @ $1D54E - STRING #5 @ $1D808
+
+#WRITE(Ptr, $1D54E)
+//『ふっとんだァ～～～～～～!!』<end>
+<name>bị hất văng rồi~~!!<end>
+
+//POINTER #6 @ $1D550 - STRING #6 @ $1D822
+
+#WRITE(Ptr, $1D550)
+//『<$24><$20>衝<$12><$20>撃<$3B><$20>波がかすめた!!』<end>
+Sóng xung kích sượt qua <name>!<end>
+
+//POINTER #7 @ $1D552 - STRING #7 @ $1D842
+
+#WRITE(Ptr, $1D552)
+//『<$24><$20>衝<$12><$20>撃<$3B><$20>波にのみこまれたぁ－－－!!』<end>
+Sóng xung kích nuốt chửng <name>!<end>
+
+//POINTER #8 @ $1D554 - STRING #8 @ $1D86E
+
+#WRITE(Ptr, $1D554)
+//『<$0C><$20>気<$BE><$20>合いの<$02><$20>入ったパンチだ!!』<end>
+Một cú đấm mãnh liệt từ <name>!!<end>
+
+//POINTER #9 @ $1D556 - STRING #9 @ $1D894
+
+#WRITE(Ptr, $1D556)
+//『パンチにいった!!』<end>
+<name>tung một cú đấm!!<end>
+
+//POINTER #10 @ $1D558 - STRING #10 @ $1D8AC
+
+#WRITE(Ptr, $1D558)
+//『<$2F><$20>体<$98>魔<$10>が<$09><$20>回<$99><$20>復した!!』<end>
+<name>đã hồi phục thể lực!!<end>
+
+//POINTER #11 @ $1D55A - STRING #11 @ $1D8CC
+
+#WRITE(Ptr, $1D55A)
+//『しかし、あいては<$29><$20>上<$0F><$20>空だァ～～～～～～～～～っ!!』<end>
+Nhưng mà đối thủ đang ở trên không~~!!<end>
+
+//POINTER #12 @ $1D55C - STRING #12 @ $1D8FA
+
+#WRITE(Ptr, $1D55C)
+//『<$37><$20>闘<$20><$20>志を<$C6><$20>燃やした!!』<end>
+Đấu chí của <name>bừng cháy!!<end>
+
+//POINTER #13 @ $1D55E - STRING #13 @ $1D918
+
+#WRITE(Ptr, $1D55E)
+//『<$53><$20>霊<$98>魔<$10>を<$C3><$20>高めた!!』<end>
+<name>gia tăng linh lực!!<end>
+
+//POINTER #14 @ $1D560 - STRING #14 @ $1D934
+
+#WRITE(Ptr, $1D560)
+//『<$4C><$20>命<$9A><$20>中<$9B><$20>率が ア~ップ!』<end>
+Gia tăng tỷ lệ đánh trúng đối thủ!<end>
+
+//POINTER #15 @ $1D562 - STRING #15 @ $1D954
+
+#WRITE(Ptr, $1D562)
+//『<$C5><$20>全<$26><$20>身に <$37><$20>闘<$0C><$20>気がみなぎる!!!』<end>
+Đấu khí tràn trề toàn thân!!!<end>
+
+//POINTER #16 @ $1D564 - STRING #16 @ $1D97E
+
+#WRITE(Ptr, $1D564)
+//『<$15><$20>攻<$12><$20>撃をかわしやすくなった!』<end>
+Dễ tránh đòn của đối thủ hơn rồi!<end>
+
+//POINTER #17 @ $1D566 - STRING #17 @ $1D9A2
+
+#WRITE(Ptr, $1D566)
+//『<$94><$20>防<$95><$20>御<$98>力<$10>が ア~ップ!』<end>
+<name>gia tăng lực phòng ngự!!<end>
+
+//POINTER #18 @ $1D568 - STRING #18 @ $1D9C2
+
+#WRITE(Ptr, $1D568)
+//『ジャンプ<$98>力<$10>が ア~ップ!』<end>
+Lực nhảy của <name>được tăng cường!<end>
+
+//POINTER #19 @ $1D56A - STRING #19 @ $1D9E2
+
+#WRITE(Ptr, $1D56A)
+//『パンチ<$98>力<$10>が ア~ップ!!』<end>
+Lực đấm của <name>gia tăng!<end>
+
+//POINTER #20 @ $1D56C - STRING #20 @ $1DA02
+
+#WRITE(Ptr, $1D56C)
+//『<$37><$20>闘<$0C><$20>気がうすれていく!!』<end>
+Đấu khí của <name>đang giảm dần!<end>
+
+//POINTER #21 @ $1D56E - STRING #21 @ $1DA22
+
+#WRITE(Ptr, $1D56E)
+//『<$4C><$20>命<$9A><$20>中<$9B><$20>率が ダウ～ン!!』<end>
+Giảm độ chính xác của <name>!<end>
+
+//POINTER #22 @ $1D570 - STRING #22 @ $1DA44
+
+#WRITE(Ptr, $1D570)
+//『<$C5><$20>全<$26><$20>身から<$B7>力<$10>がぬけていく!!』<end>
+Sức lực thoát khỏi cơ thể <name>!<end>
+
+//POINTER #23 @ $1D572 - STRING #23 @ $1DA6A
+
+#WRITE(Ptr, $1D572)
+//『<$B0><$20>技を<$41><$20>封じられている～～～～～～っ!!』<end>
+<name>đang bị phong tỏa công phu!!<end>
+
+//POINTER #24 @ $1D574 - STRING #24 @ $1DA90
+
+#WRITE(Ptr, $1D574)
+//『<$B0><$20>技が<$41><$20>封じられた!!』<end>
+<name>đã bị phong tỏa công phu!<end>
+
+//POINTER #25 @ $1D576 - STRING #25 @ $1DAAC
+
+#WRITE(Ptr, $1D576)
+//『<$53><$20>霊<$12><$20>撃が<$41><$20>封じられた!!』<end>
+<name>đã bị phong tỏa linh kích!<end>
+
+//POINTER #26 @ $1D578 - STRING #26 @ $1DACC
+
+#WRITE(Ptr, $1D578)
+//『<$53><$20>霊<$12><$20>撃を<$41><$20>封じられている～～～～～～っ!!』<end>
+<name>đang bị phong tỏa linh kích!<end>
+
+//POINTER #27 @ $1D57A - STRING #27 @ $1DAF6
+
+#WRITE(Ptr, $1D57A)
+//『<$4D><$20>妖<$98>魔<$10>を<$C3><$20>高めた!!』<end>
+Yêu lực của <name>gia tăng!<end>
+
+//POINTER #28 @ $1D57C - STRING #28 @ $1DB12
+
+#WRITE(Ptr, $1D57C)
+//『<$2F><$20>体<$98>魔<$10>が<$CC><$20>大きく<$09><$20>回<$99><$20>復したぁ－－!!』<end>
+<name>hồi phục thể lực cực đại!!<end>
+
+//POINTER #29 @ $1D57E - STRING #29 @ $1DB40
+
+#WRITE(Ptr, $1D57E)
+//『つきぬけたぁ－－』<end>
+Xuyên qua chiêu của đối thủ rồi!<end>
+
+//POINTER #30 @ $1D580 - STRING #30 @ $1DB56
+
+#WRITE(Ptr, $1D580)
+//『しかし、<$03><$20>威<$98>魔<$10>は<$06><$20>弱まったぁ~!!』<end>
+Nhưng uy lực đòn đánh đã yếu đi~!!<end>
+
+//POINTER #31 @ $1D582 - STRING #31 @ $1DB80
+
+#WRITE(Ptr, $1D582)
+//『<$AB><$20>打ち<$17><$20>消し<$AC><$20>合ったぁぁ－－!!』<end>
+Hai tuyệt chiêu chạm nhau đã tan biến!!<end>
+
+//POINTER #32 @ $1D584 - STRING #32 @ $1DBA6
+
+#WRITE(Ptr, $1D584)
+//<$D7><$10>｢なにっ!?」<end>
+<name>:cái gì!?<end>
+
+//POINTER #33 @ $1D586 - STRING #33 @ $1DBB8
+
+#WRITE(Ptr, $1D586)
+//『<$AB><$20>打ち<$17><$20>消したぁぁ~!!』<end>
+Chiêu của <name2>đã bị triệt tiêu!!<end>
+
+//POINTER #34 @ $1D588 - STRING #34 @ $1DBD6
+
+#WRITE(Ptr, $1D588)
+//『<$53><$20>霊<$0C><$20>気が みなぎった~ッ!!!』<end>
+<name>tràn trề linh khí!<end>
+
+//POINTER #35 @ $1D58A - STRING #35 @ $1DBFC
+
+#WRITE(Ptr, $1D58A)
+//『<$2F><$20>体<$2C><$20>勢を<$A1><$20>完<$C5><$20>全にたてなおした－－ッ!!!』<end>
+<name>chấn chỉnh tư thế hoàn toàn!!<end>
+
+//POINTER #36 @ $1D58C - STRING #36 @ $1DC2E
+
+#WRITE(Ptr, $1D58C)
+//『あいての<$53><$20>霊<$0C><$20>気を<$0D><$20>吸<$23><$20>収した~っ!!』<end>
+<name>hấp thu linh khí của đối thủ!!<end>
+
+//POINTER #37 @ $1D58E - STRING #37 @ $1DC5A
+
+#WRITE(Ptr, $1D58E)
+//『かすったぁ～～～～～～!!』<end>
+Đòn đánh đã sượt qua <name>!!<end>
+
+//POINTER #38 @ $1D590 - STRING #38 @ $1DC72
+
+#WRITE(Ptr, $1D590)
+//『<$53><$20>霊<$0C><$20>気が <$A8><$20>満ちていく!!』<end>
+<name>tràn trề linh khí!!<end>
+
+//POINTER #39 @ $1D592 - STRING #39 @ $1DC94
+
+#WRITE(Ptr, $1D592)
+//『<$4D><$20>妖<$0C><$20>気が みなぎった－－ッ!!!』<end>
+Yêu khí tràn trề cơ thể <name>!<end>
+
+//POINTER #40 @ $1D594 - STRING #40 @ $1DCBC
+
+#WRITE(Ptr, $1D594)
+//『<$4D><$20>妖<$0C><$20>気が <$A8><$20>満ちていく!!』<end>
+<name>tràn trề yêu khí!<end>
+
+//POINTER #41 @ $1D596 - STRING #41 @ $1DCDE
+
+#WRITE(Ptr, $1D596)
+//『<$2F><$20>体<$2C><$20>勢をたてなおした!!』<end>
+<name>đã chấn chỉnh tư thế!<end>
+
+//POINTER #42 @ $1D598 - STRING #42 @ $1DCFE
+
+#WRITE(Ptr, $1D598)
+//『<$15><$20>攻<$12><$20>撃をはねかえした!!』<end>
+<name>đẩy bật đòn tấn công!!<end>
+
+//POINTER #43 @ $1D59A - STRING #43 @ $1DD1E
+
+#WRITE(Ptr, $1D59A)
+//幽助 ｢くらいやがれ!」<end>
+Yūsuke:tiếp chiêu!<end>
+
+//POINTER #44 @ $1D59C - STRING #44 @ $1DD38
+
+#WRITE(Ptr, $1D59C)
+//幽助 ｢<$53><$20>霊<$15><$20>光<$32><$20>弾!!」<end>
+Yūsuke:<$00><$20>Linh <$0C><$20>quang <$0D><$20>đạn!!<end>
+
+//POINTER #45 @ $1D59E - STRING #45 @ $1DD54
+
+#WRITE(Ptr, $1D59E)
+//幽助 ｢うらあぁっ!」<end>
+Yūsuke:uraaa~<end>
+
+//POINTER #46 @ $1D5A0 - STRING #46 @ $1DD6C
+
+#WRITE(Ptr, $1D5A0)
+//幽助 ｢<$01><$20>霊<$00><$20>丸－－－!!!」<end>
+Yūsuke:<$00><$20>Linh <$01><$20>hoàn---!!<end>
+
+//POINTER #47 @ $1D5A2 - STRING #47 @ $1DD8C
+
+#WRITE(Ptr, $1D5A2)
+//幽助 ｢ショットガ－－－ン!!!」<end>
+Yūsuke:Shot~~Gun!!!<end>
+
+//POINTER #48 @ $1D5A4 - STRING #48 @ $1DDB0
+
+#WRITE(Ptr, $1D5A4)
+//幽助 ｢だてに あの<$B8><$20>世は<$A8><$20>見てねえぜ!!」<end>
+Yūsuke:tao từng từ cõi chết trở về đó!<end>
+
+//POINTER #49 @ $1D5A6 - STRING #49 @ $1DDDE
+
+#WRITE(Ptr, $1D5A6)
+//幽助 ｢おらおらおらおらおら－－－－!!」<end>
+Yūsuke:ora ora ora ora---!!<end>
+
+//POINTER #50 @ $1D5A8 - STRING #50 @ $1DE0A
+
+#WRITE(Ptr, $1D5A8)
+//桑原 ｢<$22><$20>首<$03><$20>位<$31><$20>打<$21><$20>者<$11><$20>剣 !!」<end>
+Kuwabara:Thủ vị đả giả kiếm!!<end>
+
+//POINTER #51 @ $1D5AA - STRING #51 @ $1DE30
+
+#WRITE(Ptr, $1D5AA)
+//桑原 ｢ぬおおぉ－－－っ!!!」<end>
+Kuwabara:nuoooo--!!<end>
+
+//POINTER #52 @ $1D5AC - STRING #52 @ $1DE52
+
+#WRITE(Ptr, $1D5AC)
+//桑原 ｢<$53><$20>霊<$11><$20>剣!!」<end>
+Kuwabara:<$00><$20>Linh <$08><$20>kiếm!!<end>
+
+//POINTER #53 @ $1D5AE - STRING #53 @ $1DE6A
+
+#WRITE(Ptr, $1D5AE)
+//桑原 ｢おうりゃぁぁ!」<end>
+Kuwabara:chết nè!<end>
+
+//POINTER #54 @ $1D5B0 - STRING #54 @ $1DE84
+
+#WRITE(Ptr, $1D5B0)
+//桑原 ｢とべ~っ!!!」<end>
+Kuwabara:bay đi~!!!<end>
+
+//POINTER #55 @ $1D5B2 - STRING #55 @ $1DE9E
+
+#WRITE(Ptr, $1D5B2)
+//桑原 ｢のびり－－－!!」<end>
+Kuwabara:vươn dài đi--!!<end>
+
+//POINTER #56 @ $1D5B4 - STRING #56 @ $1DEBA
+
+#WRITE(Ptr, $1D5B4)
+//桑原 ｢まがれ～～～～～～～～～～～～っ!!」<end>
+Kuwabara:uốn lượn đi~~~~~!!<end>
+
+//POINTER #57 @ $1D5B6 - STRING #57 @ $1DEDA
+
+#WRITE(Ptr, $1D5B6)
+//桑原 ｢<$A0><$20>二<$37><$20>刀<$51><$20>流!!!」<end>
+Kuwabara:<$10><$20>Nhị <$11><$20>đao <$07><$20>lưu!!<end>
+
+//POINTER #58 @ $1D5B8 - STRING #58 @ $1DEF8
+
+#WRITE(Ptr, $1D5B8)
+//桑原 ｢どうりゃぁ－－－!!」<end>
+Kuwabara:tránh ra---!!<end>
+
+//POINTER #59 @ $1D5BA - STRING #59 @ $1DF18
+
+#WRITE(Ptr, $1D5BA)
+//桑原 ｢オレは しぶてぇぜ!!」<end>
+Kuwabara:tao lỳ lắm đó nghen!!<end>
+
+//POINTER #60 @ $1D5BC - STRING #60 @ $1DF3A
+
+#WRITE(Ptr, $1D5BC)
+//桑原 ｢<$11><$20>剣よ!!」<end>
+Kuwabara:kiếm ơi!!<end>
+
+//POINTER #61 @ $1D5BE - STRING #61 @ $1DF50
+
+#WRITE(Ptr, $1D5BE)
+//『<$AC><$20><$09><$11><$0F><$20>空<$A1><$20>間を<$0C><$20>斬り<$B2><$20>裂いた!!』<end>
+Không gian dị thứ nguyên đã bị rạch đứt<end>
+
+//POINTER #62 @ $1D5C0 - STRING #62 @ $1DF76
+
+#WRITE(Ptr, $1D5C0)
+//桑原 ｢<$1A><$20>次<$13><$20>元<$37><$20>刀!!」<end>
+Kuwabara:<$12><$20>Thứ <$13><$20>nguyên <$1D><$20>đao!<end>
+
+//POINTER #63 @ $1D5C2 - STRING #63 @ $1DF92
+
+#WRITE(Ptr, $1D5C2)
+//『<$25><$20>食<$4D><$20>妖<$25><$20>植<$44><$20>物を<$24><$20>召<$A1><$20>喚した!』<end>
+Kurama triệu hồi thực vật ăn yêu quái!<end>
+
+//POINTER #64 @ $1D5C4 - STRING #64 @ $1DFB8
+
+#WRITE(Ptr, $1D5C4)
+//蔵馬 ｢<$8F><$20>薇<$90><$20>薔<$91><$20>棘<$92><$20>鞭<$93><$20>刃!!」<end>
+Kurama:<$19><$20>Tường vi <$1A><$20>cức tiên nhận!!<end>
+
+//POINTER #65 @ $1D5C6 - STRING #65 @ $1DFDC
+
+#WRITE(Ptr, $1D5C6)
+//蔵馬 ｢<$41><$20>風<$08><$20>華<$04><$20>円<$43><$20>舞<$2A><$20>陣 !!」<end>
+Kurama:Ph<$14><$20>ong <$15><$20>hoa <$16><$20>viên <$17><$20>vũ <$18><$20>trận!!<end>
+
+//POINTER #66 @ $1D5C8 - STRING #66 @ $1E002
+
+#WRITE(Ptr, $1D5C8)
+//『<$4A><$20>魔<$09><$20>界のオジギソウを<$24><$20>召<$A1><$20>喚した!!』<end>
+<name>triệu hồi cây mắc cỡ từ Ma giới!!<end>
+
+//POINTER #67 @ $1D5CA - STRING #67 @ $1E02E
+
+#WRITE(Ptr, $1D5CA)
+//蔵馬 ｢きれいな<$3E><$20>薇<$4E><$20>薔には <$A2><$20>棘があるのさ．．．．」<end>
+Kurama:hoa hồng đẹp luôn có gai mà...<end>
+
+//POINTER #68 @ $1D5CC - STRING #68 @ $1E062
+
+#WRITE(Ptr, $1D5CC)
+//『<$A3><$20>体から シマネキ<$2E><$20>草が!』<end>
+Cỏ chiêu tử đã bám vào <name>!<end>
+
+//POINTER #69 @ $1D5CE - STRING #69 @ $1E082
+
+#WRITE(Ptr, $1D5CE)
+//蔵馬 ｢フッ．．．．」<end>
+Kurama:hừm...<end>
+
+//POINTER #70 @ $1D5D0 - STRING #70 @ $1E096
+
+#WRITE(Ptr, $1D5D0)
+//蔵馬 ｢たあ－－っ!!」<end>
+Kurama:taaa---!!<end>
+
+//POINTER #71 @ $1D5D2 - STRING #71 @ $1E0B0
+
+#WRITE(Ptr, $1D5D2)
+//蔵馬 ｢はあっ!!」<end>
+Kurama:haaa!!<end>
+
+//POINTER #72 @ $1D5D4 - STRING #72 @ $1E0C6
+
+#WRITE(Ptr, $1D5D4)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$4B><$20>夢<$13><$20>幻<$08><$20>花の<$08><$20>花<$42><$20>粉<end>
+Phấn hoa mộng huyễn<end>
+
+//POINTER #73 @ $1D5D6 - STRING #73 @ $1E0E6
+
+#WRITE(Ptr, $1D5D6)
+//『<$A3><$20>体の<$CD><$20>中で シマネキ<$2E><$20>草がめばえる!』<end>
+Cỏ chiêu tử đã mọc mầm trong cơ thể!<end>
+
+//POINTER #74 @ $1D5D8 - STRING #74 @ $1E112
+
+#WRITE(Ptr, $1D5D8)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10> シマネキ<$2E><$20>草のタネ<end>
+Hạt cỏ chiêu tử<end>
+
+//POINTER #75 @ $1D5DA - STRING #75 @ $1E130
+
+#WRITE(Ptr, $1D5DA)
+//オジギソウ 『キルキルキル!!』<end>
+Cây mắc cỡ:grggrgrgr!!<end>
+
+//POINTER #76 @ $1D5DC - STRING #76 @ $1E152
+
+#WRITE(Ptr, $1D5DC)
+//飛影 ｢はぁっ!」<end>
+Hiei:haaa!<end>
+
+//POINTER #77 @ $1D5DE - STRING #77 @ $1E166
+
+#WRITE(Ptr, $1D5DE)
+//飛影 ｢くらえ!!」<end>
+Hiei:tiếp chiêu!<end>
+
+//POINTER #78 @ $1D5E0 - STRING #78 @ $1E17C
+
+#WRITE(Ptr, $1D5E0)
+//飛影 ｢<$27><$20>邪<$05><$20>王<$04><$20>炎<$1D><$20>殺<$11><$20>剣!!」<end>
+Hiei:<$02><$20>Tà vương <$04><$20>viêm <$05><$20>sát <$08><$20>kiếm!!<end>
+
+//POINTER #79 @ $1D5E2 - STRING #79 @ $1E1A0
+
+#WRITE(Ptr, $1D5E2)
+//飛影 ｢<$20><$20>死ね．．．．」<end>
+Hiei:chết đi...<end>
+
+//POINTER #80 @ $1D5E4 - STRING #80 @ $1E1B6
+
+#WRITE(Ptr, $1D5E4)
+//飛影 ｢<$27><$20>邪<$05><$20>王<$04><$20>炎<$1D><$20>殺<$16><$20>黒<$51><$20>龍<$3B><$20>波!!」<end>
+Hiei:<$02><$20>Tà vương <$04><$20>viêm <$05><$20>sát  <$06><$20>Hắc  <$07><$20>long <$03><$20>ba!!<end>
+
+//POINTER #81 @ $1D5E6 - STRING #81 @ $1E1E2
+
+#WRITE(Ptr, $1D5E6)
+//飛影 ｢<$27><$20>邪<$05><$20>王<$04><$20>炎<$1D><$20>殺<$55><$20>煉<$19><$20>獄<$24><$20>焦!!」<end>
+Hiei:<$02><$20>Tà vương <$04><$20>viêm <$05><$20>sát <$09><$20>luyện <$0A><$20>ngục <$0B><$20>tiêu!!<end>
+
+//POINTER #82 @ $1D5E8 - STRING #82 @ $1E20E
+
+#WRITE(Ptr, $1D5E8)
+//飛影 ｢<$1F><$20>残<$A4><$20>像だ．．．．」<end>
+Hiei:chỉ là tàn ảnh của ta thôi...<end>
+
+//POINTER #83 @ $1D5EA - STRING #83 @ $1E228
+
+#WRITE(Ptr, $1D5EA)
+//飛影 ｢<$27><$20>邪<$0B><$20>眼の<$B7>魔<$10>をなめるなよ!!」<end>
+Hiei:chớ coi thường sức mạnh tà nhãn!<end>
+
+//POINTER #84 @ $1D5EC - STRING #84 @ $1E252
+
+#WRITE(Ptr, $1D5EC)
+//飛影 ｢たあっ!」<end>
+Hiei:taaa!<end>
+
+//POINTER #85 @ $1D5EE - STRING #85 @ $1E266
+
+#WRITE(Ptr, $1D5EE)
+//飛影 ｢おれのスピ~ドについてこれるか!」<end>
+Hiei:có đuổi kịp tốc độ của ta không!<end>
+
+//POINTER #86 @ $1D5F0 - STRING #86 @ $1E292
+
+#WRITE(Ptr, $1D5F0)
+//飛影 ｢ふんっ!」<end>
+Hiei:hừm!<end>
+
+//POINTER #87 @ $1D5F2 - STRING #87 @ $1E2A6
+
+#WRITE(Ptr, $1D5F2)
+//飛影 ｢はああ～っっ!」<end>
+Hiei:haaa~!<end>
+
+//POINTER #88 @ $1D5F4 - STRING #88 @ $1E2C0
+
+#WRITE(Ptr, $1D5F4)
+//飛影 ｢フッ．．．．」<end>
+Hiei:hừ...<end>
+
+//POINTER #89 @ $1D5F6 - STRING #89 @ $1E2D4
+
+#WRITE(Ptr, $1D5F6)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$4D><$20>妖<$D7><$10><$11><$20>剣<end>
+Yêu kiếm<end>
+
+//POINTER #90 @ $1D5F8 - STRING #90 @ $1E2EC
+
+#WRITE(Ptr, $1D5F8)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10> 16<$09><$20>回<$A7><$20>斬り!!!<end>
+Thập lục liên hồi trảm!!!<end>
+
+//POINTER #91 @ $1D5FA - STRING #91 @ $1E30C
+
+#WRITE(Ptr, $1D5FA)
+//飛影 ｢<$27><$20>邪<$05><$20>王<$04><$20>炎<$1D><$20>殺．．．．<end>
+Hiei:<$02><$20>Tà vương <$04><$20>viêm <$05><$20>sát...<end>
+
+//POINTER #92 @ $1D5FC - STRING #92 @ $1E32A
+
+#WRITE(Ptr, $1D5FC)
+//飛影 ｢<$A8><$20>見えるか．．．．この<$4D><$20>妖<$0C><$20>気が!」<end>
+Hiei:có thấy yêu khí của ta chưa hả!<end>
+
+//POINTER #93 @ $1D5FE - STRING #93 @ $1E354
+
+#WRITE(Ptr, $1D5FE)
+//飛影 ｢<$27><$20>邪<$05><$20>王<end>
+Hiei:<$02><$20>Tà vương<end>
+
+//POINTER #94 @ $1D600 - STRING #94 @ $1E366
+
+#WRITE(Ptr, $1D600)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$53><$20>霊<$D7><$10><$15><$20>光<$D7><$10><$32><$20>弾<end>
+<$00><$20>Linh <$0C><$20>quang <$0D><$20>đạn<end>
+
+//POINTER #95 @ $1D602 - STRING #95 @ $1E382
+
+#WRITE(Ptr, $1D602)
+//幻海 ｢はあぁ－－－っ!」<end>
+Genkai:haaa---!<end>
+
+//POINTER #96 @ $1D604 - STRING #96 @ $1E39E
+
+#WRITE(Ptr, $1D604)
+//幻海 ｢<$53><$20>霊<$15><$20>光<$0E><$20>鏡<$3D><$20>反<$24><$20>衝!!」<end>
+Genkai:<$00><$20>Linh <$0C><$20>quang <$2C><$20>kính <$2D><$20>phản <$0B><$20>xung!!<end>
+
+//POINTER #97 @ $1D606 - STRING #97 @ $1E3C2
+
+#WRITE(Ptr, $1D606)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$53><$20>霊<$D7><$10><$0B><$20>丸<end>
+<$00><$20>Linh <$01><$20>hoàn<end>
+
+//POINTER #98 @ $1D608 - STRING #98 @ $1E3DA
+
+#WRITE(Ptr, $1D608)
+//幻海 ｢<$15><$20>光!<end>
+Genkai:<$0C><$20>Quang!<end>
+
+//POINTER #99 @ $1D60A - STRING #99 @ $1E3EA
+
+#WRITE(Ptr, $1D60A)
+//幻海 ｢<$53><$20>霊<$0B><$20>丸!!」<end>
+Genkai:<$00><$20>Linh <$01><$20>hoàn!!<end>
+
+//POINTER #100 @ $1D60C - STRING #100 @ $1E402
+
+#WRITE(Ptr, $1D60C)
+//幻海 ｢<$0C><$20>気にいらないね．．．．!!」<end>
+Genkai:thật không thể ưa được...!!<end>
+
+//POINTER #101 @ $1D60E - STRING #101 @ $1E426
+
+#WRITE(Ptr, $1D60E)
+//幻海 ｢<$15><$20>光! <$29><$20>浄!!<end>
+Genkai:<$0C><$20>Quang!<$0E><$20>Tịnh!!<end>
+
+//POINTER #102 @ $1D610 - STRING #102 @ $1E440
+
+#WRITE(Ptr, $1D610)
+//幻海 ｢<$15><$20>光! <$29><$20>浄!! <$1C><$20>裁!!!」<end>
+Genkai:<$0C><$20>Quang!<$0E><$20>Tịnh!!<$0F><$20>Tài!!!<end>
+
+//POINTER #103 @ $1D612 - STRING #103 @ $1E468
+
+#WRITE(Ptr, $1D612)
+//幻海 ｢ふんっ!」<end>
+Genkai:hừm!<end>
+
+//POINTER #104 @ $1D614 - STRING #104 @ $1E47C
+
+#WRITE(Ptr, $1D614)
+//幻海 ｢やれやれ．．．．」<end>
+Genkai:chà chà...<end>
+
+//POINTER #105 @ $1D616 - STRING #105 @ $1E494
+
+#WRITE(Ptr, $1D616)
+//幻海 ｢ハッ!」<end>
+Genkai:haa!<end>
+
+//POINTER #106 @ $1D618 - STRING #106 @ $1E4A6
+
+#WRITE(Ptr, $1D618)
+//鈴駒 ｢オイラのウゴキが <$A8><$20>見えるかな?」<end>
+Rinku:có thấy chuyển động của ta không?<end>
+
+//POINTER #107 @ $1D61A - STRING #107 @ $1E4D2
+
+#WRITE(Ptr, $1D61A)
+//鈴駒 ｢はあぁっ!」<end>
+Rinku:haaa!<end>
+
+//POINTER #108 @ $1D61C - STRING #108 @ $1E4E8
+
+#WRITE(Ptr, $1D61C)
+//鈴駒 ｢くらえっ!」<end>
+Rinku:ăn đòn nè!<end>
+
+//POINTER #109 @ $1D61E - STRING #109 @ $1E4FE
+
+#WRITE(Ptr, $1D61E)
+//鈴駒 ｢<$A9><$20>犬の<$1E><$20>散<$AA><$20>歩だよ～～～～～～ん!」<end>
+Rinku:chó đi tản bộ nè~~!<end>
+
+//POINTER #110 @ $1D620 - STRING #110 @ $1E524
+
+#WRITE(Ptr, $1D620)
+//鈴駒 ｢あらよっとっ!」<end>
+Rinku:ái chà chà!<end>
+
+//POINTER #111 @ $1D622 - STRING #111 @ $1E53E
+
+#WRITE(Ptr, $1D622)
+//鈴駒 ｢<$6D><$20>盾<$6E><$20>妖<$6F><$20>妖ォ~!!」<end>
+Rinku:<$55><$20>Thuẫn<$56><$20> yêu <$57><$20>yêu~!!<end>
+
+//POINTER #112 @ $1D624 - STRING #112 @ $1E55E
+
+#WRITE(Ptr, $1D624)
+//鈴駒 ｢<$74><$20>大<$75><$20>車<$76><$20>輪!!!」<end>
+Rinku:<$5B><$20>Đại x<$5C><$20>a luân<$5D><$20>!!<end>
+
+//POINTER #113 @ $1D626 - STRING #113 @ $1E57C
+
+#WRITE(Ptr, $1D626)
+//鈴駒 ｢<$77><$20>魔<$78><$20>妖<$79><$20>妖ォ~!!」<end>
+Rinku:<$52><$20>Ma yê<$53><$20>u yêu~<$54><$20>!!<end>
+
+//POINTER #114 @ $1D628 - STRING #114 @ $1E59C
+
+#WRITE(Ptr, $1D628)
+//鈴駒 ｢くらえっ!!!」<end>
+Rinku:tiếp chiêu!!<end>
+
+//POINTER #115 @ $1D62A - STRING #115 @ $1E5B6
+
+#WRITE(Ptr, $1D62A)
+//鈴駒 ｢<$65><$20>双<$66><$20>妖<$67><$20>妖ォ~!!!」<end>
+Rinku:<$58><$20>Song <$59><$20>yêu yê<$5A><$20>u~!!<end>
+
+//POINTER #116 @ $1D62C - STRING #116 @ $1E5D8
+
+#WRITE(Ptr, $1D62C)
+//鈴駒 ｢へへっ どこねらってんの?」<end>
+Rinku:hề hề,mắt mũi để đâu vậy?<end>
+
+//POINTER #117 @ $1D62E - STRING #117 @ $1E5FE
+
+#WRITE(Ptr, $1D62E)
+//鈴駒 ｢やあっ!!」<end>
+Rinku:yaaa!!<end>
+
+//POINTER #118 @ $1D630 - STRING #118 @ $1E614
+
+#WRITE(Ptr, $1D630)
+//鈴駒 ｢へへっ!」<end>
+Rinku:hề hề!<end>
+
+//POINTER #119 @ $1D632 - STRING #119 @ $1E628
+
+#WRITE(Ptr, $1D632)
+//凍矢 ｢はぁ－－っ!」<end>
+Tōya:haaa---!<end>
+
+//POINTER #120 @ $1D634 - STRING #120 @ $1E640
+
+#WRITE(Ptr, $1D634)
+//凍矢 ｢<$20><$20>死ねっ!!」<end>
+Tōya:chết đi!!<end>
+
+//POINTER #121 @ $1D636 - STRING #121 @ $1E658
+
+#WRITE(Ptr, $1D636)
+//凍矢 ｢<$28><$20>呪<$40><$20>氷<$37><$20>凍<$26><$20>身!!」<end>
+Tōya:<$21><$20>Chú <$1C><$20>băng đ<$1D><$20>ống <$1E><$20>thân!!<end>
+
+//POINTER #122 @ $1D638 - STRING #122 @ $1E678
+
+#WRITE(Ptr, $1D638)
+//凍矢 ｢くらえっ!!」<end>
+Tōya:đỡ đòn!!<end>
+
+//POINTER #123 @ $1D63A - STRING #123 @ $1E690
+
+#WRITE(Ptr, $1D63A)
+//凍矢 ｢<$28><$20>呪<$40><$20>氷<$37><$20>凍<$10><$20>結<$2A><$20>陣!!」<end>
+Tōya:<$21><$20>Chú <$1C><$20>băng đ<$1D><$20>ống <$1F><$20>kết tr<$18><$20>ận!!<end>
+
+//POINTER #124 @ $1D63C - STRING #124 @ $1E6B4
+
+#WRITE(Ptr, $1D63C)
+//凍矢 ｢<$28><$20>呪<$40><$20>氷<$2E><$20>走<$4D><$20>妖<$3B><$20>波!!」<end>
+Tōya:<$21><$20>Chú <$1C><$20>băng <$3B><$20>tẩu <$3E><$20>yêu <$03><$20>ba!!<end>
+
+//POINTER #125 @ $1D63E - STRING #125 @ $1E6D8
+
+#WRITE(Ptr, $1D63E)
+//凍矢 ｢<$28><$20>呪<$40><$20>氷<$15><$20>光<$24><$20>晶<$48><$20>壁!!」<end>
+Tōya:<$21><$20>Chú <$1C><$20>băng q<$0C><$20>uang <$0B><$20>tinh <$22><$20>bích!!<end>
+
+//POINTER #126 @ $1D640 - STRING #126 @ $1E6FC
+
+#WRITE(Ptr, $1D640)
+//凍矢 ｢<$4A><$20>魔<$33><$20>笛<$1E><$20>霞<$32><$20>弾<$21><$20>射!!」<end>
+Tōya:<$2A><$20>Ma <$45><$20>địch t<$46><$20>ản đ<$0D><$20>ạn x<$47><$20>ạ!!<end>
+
+//POINTER #127 @ $1D642 - STRING #127 @ $1E720
+
+#WRITE(Ptr, $1D642)
+//凍矢 ｢<$28><$20>呪<$40><$20>氷<$11><$20>剣!!」<end>
+Tōya:<$21><$20>Chú <$1C><$20>băng <$08><$20>kiếm!!<end>
+
+//POINTER #128 @ $1D644 - STRING #128 @ $1E73C
+
+#WRITE(Ptr, $1D644)
+//凍矢 ｢あつくなるな．．．．さましてやりう」<end>
+Tōya:đừng nóng...Để ta làm nguội cho.<end>
+
+//POINTER #129 @ $1D646 - STRING #129 @ $1E766
+
+#WRITE(Ptr, $1D646)
+//凍矢 ｢ふんっ!」<end>
+Tōya:hừm!<end>
+
+//POINTER #130 @ $1D648 - STRING #130 @ $1E77A
+
+#WRITE(Ptr, $1D648)
+//『<$2B><$20>氷の<$4D><$20>妖<$0C><$20>気が あたりにひりがる!!』<end>
+Yêu khí băng đã lan rộng chung quanh!<end>
+
+//POINTER #131 @ $1D64A - STRING #131 @ $1E7A6
+
+#WRITE(Ptr, $1D64A)
+//『<$0A><$20>風をあやつり <$AB><$20>浮き<$AC><$20>上がった!』<end>
+<$72><$20>Trận khiển ngọn gió để nổi lên không!<end>
+
+//POINTER #132 @ $1D64C - STRING #132 @ $1E7CE
+
+#WRITE(Ptr, $1D64C)
+//陣 ｢むんっ!!」<end>
+<$72><$20>Trận:hừm!!<end>
+
+//POINTER #133 @ $1D64E - STRING #133 @ $1E7E2
+
+#WRITE(Ptr, $1D64E)
+//陣 ｢<$3F><$20>爆<$41><$20>風<$24><$20>障<$48><$20>壁!!」<end>
+<$72><$20>Trận:<$20><$20>Bộc ph<$14><$20>ong <$0B><$20>chướng <$22><$20>bích!<end>
+
+//POINTER #134 @ $1D650 - STRING #134 @ $1E800
+
+#WRITE(Ptr, $1D650)
+//陣 ｢いっくぞォ~!!」<end>
+<$72><$20>Trận:đi nào~!<end>
+
+//POINTER #135 @ $1D652 - STRING #135 @ $1E81A
+
+#WRITE(Ptr, $1D654)
+#WRITE(Ptr, $1D652)
+//陣 ｢<$22><$20>修<$4E><$20>羅<$2D><$20>旋<$47><$20>風<$11><$20>拳!!」<end>
+<$72><$20>Trận:<$23><$20>Tu L<$24><$20>a to<$25><$20>àn ph<$26><$20>ong <$08><$20>quyền!<end>
+
+//POINTER #136 @ $1D654 - STRING #136 @ $1E83C
+
+
+//陣 ｢<$22><$20>修<$4E><$20>羅<$2D><$20>旋<$47><$20>風<$11><$20>拳!!」<end>
+
+//POINTER #137 @ $1D656 - STRING #137 @ $1E85E
+
+#WRITE(Ptr, $1D656)
+//陣 ｢ダブル<$2D><$20>旋<$47><$20>風<$11><$20>拳!!!」<end>
+<$72><$20>Trận:<$49><$20>Song <$4A><$20>toàn<$25><$20> phon<$26><$20>g q<$08><$20>uyền!<end>
+
+//POINTER #138 @ $1D658 - STRING #138 @ $1E880
+
+#WRITE(Ptr, $1D658)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$22><$20>修<$4E><$20>羅<$36><$20>突<$47><$20>風<$12><$20>撃<end>
+<$72><$20>Trận:<$23><$20>Tu L<$24><$20>a đ<$73><$20>ột pho<$74><$20>ng kí<$75><$20>ch<end>
+
+//POINTER #139 @ $1D65A - STRING #139 @ $1E8A0
+
+#WRITE(Ptr, $1D65A)
+//陣 ｢<$22><$20>修<$4E><$20>羅<$54><$20>烈<$47><$20>風<$1F><$20>斬!!」<end>
+<$72><$20>Trận:<$23><$20>Tu L<$24><$20>a l<$48><$20>iệt ph<$26><$20>ong <$3F><$20>trảm!<end>
+
+//POINTER #140 @ $1D65C - STRING #140 @ $1E8C2
+
+#WRITE(Ptr, $1D65C)
+//陣 ｢たぁ－－－っ!」<end>
+<$72><$20>Trận:taaa--!<end>
+
+//POINTER #141 @ $1D65E - STRING #141 @ $1E8DA
+
+#WRITE(Ptr, $1D65E)
+//陣 ｢オラぁ ワクワクしてきただ!」<end>
+<$72><$20>Trận:ta thấy hồi hộp lắm đó!<end>
+
+//POINTER #142 @ $1D660 - STRING #142 @ $1E900
+
+#WRITE(Ptr, $1D660)
+//陣 ｢いい<$0A><$20>風だなァ!」<end>
+<$72><$20>Trận:gió mát quá~<end>
+
+//POINTER #143 @ $1D662 - STRING #143 @ $1E91A
+
+#WRITE(Ptr, $1D662)
+//陣 ｢いっくだぞォ－－!」<end>
+<$72><$20>Trận:đi nào--!<end>
+
+//POINTER #144 @ $1D664 - STRING #144 @ $1E936
+
+#WRITE(Ptr, $1D664)
+//陣 ｢はぁっ!!」<end>
+<$72><$20>Trận:haa!<end>
+
+//POINTER #145 @ $1D666 - STRING #145 @ $1E94A
+
+#WRITE(Ptr, $1D666)
+//死々若丸 ｢うけてみよッ!!」<end>
+Shishiwakamaru:tiếp chiêu!!<end>
+
+//POINTER #146 @ $1D668 - STRING #146 @ $1E96A
+
+#WRITE(Ptr, $1D668)
+//死々若丸 ｢<$07><$20>怨<$14><$20>呼<$24><$20>障<$3F><$20>縛<$48><$20>壁!!」<end>
+Sisiwakamaru:<$27><$20>Oán<$28><$20> hô <$0B><$20>chướn<$29><$20>g phọc<$22><$20> bích!<end>
+
+//POINTER #147 @ $1D66A - STRING #147 @ $1E992
+
+#WRITE(Ptr, $1D66A)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$20><$20>死<$34><$20>出の<$3B><$20>羽<$1B><$20>衣<end>
+Bào y dẫn vào cõi chết<end>
+
+//POINTER #148 @ $1D66C - STRING #148 @ $1E9B0
+
+#WRITE(Ptr, $1D66C)
+//死々若丸 ｢<$4A><$20>魔<$16><$20>哭<$4C><$20>冥<$19><$20>獄<$2E><$20>奏!!」<end>
+Shishiwakamaru:<$2A><$20>Ma <$4B><$20>khốc m<$2B><$20>inh n<$4C><$20>gục t<$3B><$20>ấu!<end>
+
+//POINTER #149 @ $1D66E - STRING #149 @ $1E9D8
+
+#WRITE(Ptr, $1D66E)
+//死々若丸 ｢<$4A><$20>魔<$16><$20>哭<$4C><$20>鳴<$1F><$20>斬<$11><$20>剣!」<end>
+Shishiwakamaru:<$2A><$20>Ma <$4B><$20>khốc m<$2B><$20>inh <$3F><$20>trảm <$08><$20>kiếm!<end>
+
+//POINTER #150 @ $1D670 - STRING #150 @ $1E9FE
+
+#WRITE(Ptr, $1D670)
+//死々若丸 ｢<$3F><$20>爆<$35><$20>吐<$39><$20>髑<$25><$20>触<$2E><$20>葬!!!」<end>
+Sisiwakamaru:<$20><$20> Bộc t<$4D><$20>hổ <$4E><$20>độc x<$4F><$20>úc tán<$50><$20>g!<end>
+
+//POINTER #151 @ $1D672 - STRING #151 @ $1EA28
+
+#WRITE(Ptr, $1D672)
+//死々若丸 ｢<$3F><$20>爆<$35><$20>吐<$07><$20>怨<$3F><$20>縛<$28><$20>呪!!」<end>
+Shishiwakamaru:<$20><$20>Bộc th<$4D><$20>ổ o<$27><$20>án <$29><$20>phọc <$3C><$20>chú!<end>
+
+//POINTER #152 @ $1D674 - STRING #152 @ $1EA50
+
+#WRITE(Ptr, $1D674)
+//死々若丸 ｢たぁ－－－ッ!」<end>
+Shishiwakamaru:taaa---!<end>
+
+//POINTER #153 @ $1D676 - STRING #153 @ $1EA6E
+
+#WRITE(Ptr, $1D676)
+//死々若丸 ｢ゆくぞッ!!」<end>
+Shishiwakamaru:đi nào!<end>
+
+//POINTER #154 @ $1D678 - STRING #154 @ $1EA8A
+
+#WRITE(Ptr, $1D678)
+//死々若丸 ｢はあぁ－－－ッ!」<end>
+Shishiwakamaru:haaa--!<end>
+
+//POINTER #155 @ $1D67A - STRING #155 @ $1EAAA
+
+#WRITE(Ptr, $1D67A)
+//死々若丸 ｢<$BE><$20>相<$30><$20>手にならぬわ!!」<end>
+Shishiwakamaru:còn xanh và non lắm!<end>
+
+//POINTER #156 @ $1D67C - STRING #156 @ $1EAD0
+
+#WRITE(Ptr, $1D67C)
+//死々若丸 ｢ふんッ!」<end>
+Shishiwakamaru:hừm!<end>
+
+//POINTER #157 @ $1D67E - STRING #157 @ $1EAE8
+
+#WRITE(Ptr, $1D67E)
+//『<$20><$20>死の<$4D><$20>妖<$0C><$20>気で あたりをつつんだ!!』<end>
+Tử khí đã bao trùm chung quanh!<end>
+
+//POINTER #158 @ $1D680 - STRING #158 @ $1EB14
+
+#WRITE(Ptr, $1D680)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$57><$20>支<$58><$20>配<$59><$20>者<$5A><$20>機<$5B><$20>雷<end>
+Cơ lôi của kẻ thống trị<end>
+
+//POINTER #159 @ $1D682 - STRING #159 @ $1EB34
+
+#WRITE(Ptr, $1D682)
+//鴉 ｢<$AF><$20>行 け ．．．．」<end>
+<$6A><$20>Quạ đe<$6B><$20>n:đi đi...<end>
+
+//POINTER #160 @ $1D684 - STRING #160 @ $1EB4C
+
+#WRITE(Ptr, $1D684)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$80><$20>手<$81><$20>榴<$82><$20>弾<end>
+<$6A><$20>Quạ đe<$6B><$20>n:Lựu đạn tay ném<end>
+
+//POINTER #161 @ $1D686 - STRING #161 @ $1EB66
+
+#WRITE(Ptr, $1D686)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$83><$20>閃<$84><$20>光<$85><$20>弾<end>
+<$6A><$20>Quạ đe<$6B><$20>n: Thi<$6C><$20>ểm qua<$6D><$20>ng đạn!<end>
+
+//POINTER #162 @ $1D688 - STRING #162 @ $1EB80
+
+#WRITE(Ptr, $1D688)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10><$88><$20>地<$89><$20>下<$8A><$20>爆<$8B><$20>弾<end>
+<$6A><$20>Quạ đe<$6B><$20>n:Đạn nổ ngầm!<end>
+
+//POINTER #163 @ $1D68A - STRING #163 @ $1EB9C
+
+#WRITE(Ptr, $1D68A)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10><$7A><$20>追<$7B><$20>跡<$7C><$20>爆<$7D><$20>弾<end>
+<$6A><$20>Quạ đe<$6B><$20>n:Đạn nổ truy dấu!<end>
+
+//POINTER #164 @ $1D68C - STRING #164 @ $1EBB8
+
+#WRITE(Ptr, $1D68C)
+//<$88><$20>地<$89><$20>下<$8A><$20>爆<$8B><$20>弾 ｢つかまえた．．．．」<end>
+Đạn nổ ngầm:tao tóm được mày rồi...<end>
+
+//POINTER #165 @ $1D68E - STRING #165 @ $1EBDE
+
+#WRITE(Ptr, $1D68E)
+//鴉 ｢こおおおお!!」<end>
+<$6A><$20>Quạ đe<$6B><$20>n:kooooo!!<end>
+
+//POINTER #166 @ $1D690 - STRING #166 @ $1EBF6
+
+#WRITE(Ptr, $1D690)
+//<$88><$20>地<$89><$20>下<$8A><$20>爆<$8B><$20>弾 ｢キキキキ．．．．」<end>
+Đạn nổ ngầm:kikikiki...<end>
+
+//POINTER #167 @ $1D692 - STRING #167 @ $1EC1A
+
+#WRITE(Ptr, $1D692)
+//<$7A><$20>追<$7B><$20>跡<$7C><$20>爆<$7D><$20>弾 ｢ギギギギッ!!」<end>
+Đạn nổ truy dấu:gigigi!!<end>
+
+//POINTER #168 @ $1D694 - STRING #168 @ $1EC40
+
+#WRITE(Ptr, $1D694)
+//鴉 ｢フフフフフフッ．．．．!!」<end>
+<$6A><$20>Quạ đe<$6B><$20>n:hà hà hà...!!<end>
+
+//POINTER #169 @ $1D696 - STRING #169 @ $1EC60
+
+#WRITE(Ptr, $1D696)
+//鴉 ｢とうッ!」<end>
+<$6A><$20>Quạ đe<$6B><$20>n:tooo!<end>
+
+//POINTER #170 @ $1D698 - STRING #170 @ $1EC72
+
+#WRITE(Ptr, $1D698)
+//鴉 ｢はあッ!」<end>
+<$6A><$20>Quạ đe<$6B><$20>n:haaa!<end>
+
+//POINTER #171 @ $1D69A - STRING #171 @ $1EC84
+
+#WRITE(Ptr, $1D69A)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$20><$20>死の<$4A><$20>舞い<end>
+Vũ điệu tử thần của <$6A><$20>Quạ đ<$6B><$20>en<end>
+
+//POINTER #172 @ $1D69C - STRING #172 @ $1EC9E
+
+#WRITE(Ptr, $1D69C)
+//鴉 ｢トリ~トメントはしているか?」<end>
+Quạ đen:dùng dầu gội gì chưa người đẹp?<end>
+
+//POINTER #173 @ $1D69E - STRING #173 @ $1ECC4
+
+#WRITE(Ptr, $1D69E)
+//『<$57><$20>支<$58><$20>配<$59><$20>者<$5A><$20>機<$5B><$20>雷が とりついた!!』<end>
+Bị cơ lôi của kẻ thống trị bám vào rồi!<end>
+
+//POINTER #174 @ $1D6A0 - STRING #174 @ $1ECF0
+
+#WRITE(Ptr, $1D6A0)
+//鴉 ｢たあぁぁ－－－っ!!」<end>
+<$6A><$20>Quạ đe<$6B><$20>n:taaa--!<end>
+
+//POINTER #175 @ $1D6A2 - STRING #175 @ $1ED0E
+
+#WRITE(Ptr, $1D6A2)
+//鴉 ｢ハッ!!」<end>
+<$6A><$20>Quạ đe<$6B><$20>n:haa!<end>
+
+//POINTER #176 @ $1D6A4 - STRING #176 @ $1ED20
+
+#WRITE(Ptr, $1D6A4)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$CE><$20>閃<$CF><$20>光<$D0><$20>火<$D1><$20>炎<$D2><$20>弾<end>
+<$6A><$20>Quạ đe<$6B><$20>n: Thi<$6E><$20>ểm qua<$6F><$20>ng hỏ<$70><$20>a viêm<$71><$20> đạn!<end>
+
+//POINTER #177 @ $1D6A6 - STRING #177 @ $1ED40
+
+#WRITE(Ptr, $1D6A6)
+//武威 ｢ぬおおおおおおおおお!!!!!」<end>
+<$69><$20>Vũ Uy:nuoooooooooo!!<end>
+
+//POINTER #178 @ $1D6A8 - STRING #178 @ $1ED6A
+
+#WRITE(Ptr, $1D6A8)
+//武威 ｢ぬおぉっ!!!」<end>
+<$69><$20>Vũ Uy:nuoooo!!<end>
+
+//POINTER #179 @ $1D6AA - STRING #179 @ $1ED84
+
+#WRITE(Ptr, $1D6AA)
+//武威 ｢ふんっ!!」<end>
+<$69><$20>Vũ Uy:hừm!!<end>
+
+//POINTER #180 @ $1D6AC - STRING #180 @ $1ED9A
+
+#WRITE(Ptr, $1D6AC)
+//武威 ｢むんっ!!」<end>
+<$69><$20>Vũ Uy:hèm!!<end>
+
+//POINTER #181 @ $1D6AE - STRING #181 @ $1EDB0
+
+#WRITE(Ptr, $1D6AE)
+//武威 ｢<$4A><$20>魔<$37><$20>闘<$2D><$20>戦<$46><$20>斧!!!」<end>
+<$69><$20>Vũ Uy:<$60><$20>Ma đấu <$64><$20>chiến <$65><$20>phủ!!<end>
+
+//POINTER #182 @ $1D6B0 - STRING #182 @ $1EDD2
+
+#WRITE(Ptr, $1D6B0)
+//武威 ｢<$4A><$20>魔<$37><$20>闘<$52><$20>裂<$2D><$20>閃<$24><$20>掌!!!」<end>
+<$69><$20>Vũ Uy:<$60><$20>Ma đấu <$66><$20>liệt th<$67><$20>iểm c<$68><$20>hưởng!!<end>
+
+//POINTER #183 @ $1D6B2 - STRING #183 @ $1EDF8
+
+#WRITE(Ptr, $1D6B2)
+//武威 ｢<$4A><$20>魔<$37><$20>闘<$24><$20>翔<$1F><$20>斬<$46><$20>斧!!!」<end>
+<$69><$20>Vũ Uy:<$60><$20>Ma đấu<$61><$20> tường<$62><$20> trảm <$63><$20>phủ!!<end>
+
+//POINTER #184 @ $1D6B4 - STRING #184 @ $1EE1E
+
+#WRITE(Ptr, $1D6B4)
+//武威 ｢はあ－－－っ!!」<end>
+<$69><$20>Vũ Uy:haa---!!<end>
+
+//POINTER #185 @ $1D6B6 - STRING #185 @ $1EE3A
+
+#WRITE(Ptr, $1D6B6)
+//武威 ｢おまえも<$B6><$20>本<$0C><$20>気を出せ!!!」<end>
+<$69><$20>Vũ Uy:hãy lộ mặt thật của ngươi đi!<end>
+
+//POINTER #186 @ $1D6B8 - STRING #186 @ $1EE62
+
+#WRITE(Ptr, $1D6B8)
+//武威 ｢たあっ!!!」<end>
+<$69><$20>Vũ Uy:taaa~!!<end>
+
+//POINTER #187 @ $1D6BA - STRING #187 @ $1EE7A
+
+#WRITE(Ptr, $1D6BA)
+//武威 ｢はあっ!!」<end>
+<$69><$20>Vũ Uy:taaa!!<end>
+
+//POINTER #188 @ $1D6BC - STRING #188 @ $1EE90
+
+#WRITE(Ptr, $1D6BC)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$38><$20>怒<$D7><$10><$18><$20>号<end>
+Cuồng nộ<end>
+
+//POINTER #189 @ $1D6BE - STRING #189 @ $1EEA8
+
+#WRITE(Ptr, $1D6BE)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10><$7E><$20>武<$7F><$20>装オ－ラ<end>
+Aura vũ trang<end>
+
+//POINTER #190 @ $1D6C0 - STRING #190 @ $1EEC2
+
+#WRITE(Ptr, $1D6C0)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10><$86><$20>護<$87><$20>身オ－ラ<end>
+Aura hộ thân<end>
+
+//POINTER #191 @ $1D6C2 - STRING #191 @ $1EEDC
+
+#WRITE(Ptr, $1D6C2)
+//戸愚呂 ｢くくくっ．．．．」<end>
+Toguro:khặc khặc...<end>
+
+//POINTER #192 @ $1D6C4 - STRING #192 @ $1EEF6
+
+#WRITE(Ptr, $1D6C4)
+//戸愚呂 ｢くくくくくくくくっ．．．．」<end>
+Toguro:khặc khặc khặc khặc...<end>
+
+//POINTER #193 @ $1D6C6 - STRING #193 @ $1EF1A
+
+#WRITE(Ptr, $1D6C6)
+//戸愚呂 ｢ひょぉわぁっ!!」<end>
+Toguro:úi da!<end>
+
+//POINTER #194 @ $1D6C8 - STRING #194 @ $1EF38
+
+#WRITE(Ptr, $1D6C8)
+//戸愚呂 ｢けけけ．．．．」<end>
+Toguro:khề khề khề...<end>
+
+//POINTER #195 @ $1D6CA - STRING #195 @ $1EF50
+
+#WRITE(Ptr, $1D6CA)
+//戸愚呂 ｢けっけっけっ．．．．」<end>
+Toguro:kẹc kẹc kẹc...<end>
+
+//POINTER #196 @ $1D6CC - STRING #196 @ $1EF6E
+
+#WRITE(Ptr, $1D6CC)
+//戸愚呂 ｢くくく．．．．<$20><$20>死ね!」<end>
+Toguro anh:khù khù...Chết đi!<end>
+
+//POINTER #197 @ $1D6CE - STRING #197 @ $1EF8E
+
+#WRITE(Ptr, $1D6CE)
+//戸愚呂 ｢おれの<$26><$20>心<$A4><$20>臓がどこか わかるまい」<end>
+Toguro:biết tim tao nằm ở đâu không?<end>
+
+//POINTER #198 @ $1D6D0 - STRING #198 @ $1EFBE
+
+#WRITE(Ptr, $1D6D0)
+//戸愚呂 ｢くくく．．．．<$A7><$20>擬<$2F><$20>態さ．．．．」<end>
+Toguro:khặc khặc...Trạng thái giả thôi...<end>
+
+//POINTER #199 @ $1D6D2 - STRING #199 @ $1EFE4
+
+#WRITE(Ptr, $1D6D2)
+//戸愚呂 ｢むひょう!!」<end>
+Toguro:dà hú!<end>
+
+//POINTER #200 @ $1D6D4 - STRING #200 @ $1EFFE
+
+#WRITE(Ptr, $1D6D4)
+//戸愚呂 ｢なん<$38><$20>度でも<$BB><$20>元<$BC><$20>通りになるぞ．．．．」<end>
+Bao lần tao cũng trở lại như cũ thôi...<end>
+
+//POINTER #201 @ $1D6D6 - STRING #201 @ $1F02E
+
+#WRITE(Ptr, $1D6D6)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$A7><$20>擬<$D7><$10><$2F><$20>態<end>
+Trạng thái giả<end>
+
+//POINTER #202 @ $1D6D8 - STRING #202 @ $1F046
+
+#WRITE(Ptr, $1D6D8)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$C7><$20>護<$D7><$10><$2F><$20>態<end>
+Trạng thái phòng vệ<end>
+
+//POINTER #203 @ $1D6DA - STRING #203 @ $1F05E
+
+#WRITE(Ptr, $1D6DA)
+//戸愚呂 ｢くくく．．おれの<$26><$20>心<$A4><$20>臓は ここだぞ．．」<end>
+Toguro:khặc khặc...Tim tao nằm ở đây nè...<end>
+
+//POINTER #204 @ $1D6DC - STRING #204 @ $1F090
+
+#WRITE(Ptr, $1D6DC)
+//『<$4D><$20>妖<$0C><$20>気を<$0D><$20>吸<$23><$20>収した!!』<end>
+Toguro hấp thu yêu khí của đối thủ!<end>
+
+//POINTER #205 @ $1D6DE - STRING #205 @ $1F0B0
+
+#WRITE(Ptr, $1D6DE)
+//『<$4D><$20>妖<$0C><$20>気を<$49><$20>放<$21><$20>射した!!』<end>
+Toguro đã phóng xạ yêu khí!<end>
+
+//POINTER #206 @ $1D6E0 - STRING #206 @ $1F0D0
+
+#WRITE(Ptr, $1D6E0)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10><$3F><$20>爆<$3A><$20>肉<$15><$20>鋼<$2F><$20>体<end>
+Bộc nhục cương thể<end>
+
+//POINTER #207 @ $1D6E2 - STRING #207 @ $1F0EC
+
+#WRITE(Ptr, $1D6E2)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$38><$20>怒<$D7><$10><$18><$20>号<end>
+Cuồng nộ<end>
+
+//POINTER #208 @ $1D6E4 - STRING #208 @ $1F104
+
+#WRITE(Ptr, $1D6E4)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$0F><$20>空<$D7><$10><$11><$20>拳<end>
+<$51><$20>Không <$08><$20>quyền<end>
+
+//POINTER #209 @ $1D6E6 - STRING #209 @ $1F11C
+
+#WRITE(Ptr, $1D6E6)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$20><$20>指<$D7><$10><$32><$20>弾<end>
+<$39><$20>Chỉ <$0D><$20>đạn<end>
+
+//POINTER #210 @ $1D6E8 - STRING #210 @ $1F134
+
+#WRITE(Ptr, $1D6E8)
+//戸愚呂 ｢かぁぁぁ－－－－つ!!!」<end>
+Toguro:kaaaa---!<end>
+
+//POINTER #211 @ $1D6EA - STRING #211 @ $1F15A
+
+#WRITE(Ptr, $1D6EA)
+//戸愚呂 ｢<$24><$20>勝<$43><$20>負だ!!」<end>
+Toguro:quyết phân thắng bại!<end>
+
+//POINTER #212 @ $1D6EC - STRING #212 @ $1F176
+
+#WRITE(Ptr, $1D6EC)
+//戸愚呂 ｢100!!!」<end>
+Toguro:100%!<end>
+
+//POINTER #213 @ $1D6EE - STRING #213 @ $1F192
+
+#WRITE(Ptr, $1D6EE)
+//戸愚呂 ｢100<$9A><$20>中の100ォォォォォ!!」<end>
+Toguro:100% trên 100%!!<end>
+
+//POINTER #214 @ $1D6F0 - STRING #214 @ $1F1C4
+
+#WRITE(Ptr, $1D6F0)
+//戸愚呂 ｢ぬおおっ!!」<end>
+Toguro:nuooo!<end>
+
+//POINTER #215 @ $1D6F2 - STRING #215 @ $1F1DE
+
+#WRITE(Ptr, $1D6F2)
+//戸愚呂 ｢．．ふっ．．!!」<end>
+Toguro:..hừ..!!<end>
+
+//POINTER #216 @ $1D6F4 - STRING #216 @ $1F1F8
+
+#WRITE(Ptr, $1D6F4)
+//戸愚呂 ｢ふんっ!!」<end>
+Toguro:hừm!<end>
+
+//POINTER #217 @ $1D6F6 - STRING #217 @ $1F210
+
+#WRITE(Ptr, $1D6F6)
+//戸愚呂 ｢80!!」<end>
+Toguro:80%!<end>
+
+//POINTER #218 @ $1D6F8 - STRING #218 @ $1F228
+
+#WRITE(Ptr, $1D6F8)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$22><$20>手<$D7><$10><$37><$20>刀<end>
+Thủ đao<end>
+
+//POINTER #219 @ $1D6FA - STRING #219 @ $1F240
+
+#WRITE(Ptr, $1D6FA)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$20><$20>指<$D7><$10><$3C><$20>圧<end>
+Day ng<$5E><$20>ón bấ<$5F><$20>m huyệt<end>
+
+//POINTER #220 @ $1D6FC - STRING #220 @ $1F258
+
+#WRITE(Ptr, $1D6FC)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10>ウィルス<end>
+Virus<end>
+
+//POINTER #221 @ $1D6FE - STRING #221 @ $1F26C
+
+#WRITE(Ptr, $1D6FE)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> メ<$D7><$10>ス<end>
+Dao mổ<end>
+
+//POINTER #222 @ $1D700 - STRING #222 @ $1F280
+
+#WRITE(Ptr, $1D700)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$BD><$20>脳<$BF><$20>内<$C0><$20>快<$C1><$20>楽<$C4><$20>物<$BF><$20>質<end>
+Vật chất khoái lạc trong não<end>
+
+//POINTER #223 @ $1D702 - STRING #223 @ $1F2A2
+
+#WRITE(Ptr, $1D702)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$0C><$20>奇<$45><$20>跡の<$30><$20>手<end>
+Bàn tay kỳ tích<end>
+
+//POINTER #224 @ $1D704 - STRING #224 @ $1F2BE
+
+#WRITE(Ptr, $1D704)
+//神谷 ｢<$A8><$20>見るがいい．．．．」<end>
+Kamiya:hãy nhìn cho rõ...<end>
+
+//POINTER #225 @ $1D706 - STRING #225 @ $1F2DA
+
+#WRITE(Ptr, $1D706)
+//神谷 ｢バカめっ!」<end>
+Kamiya:đồ ngu!<end>
+
+//POINTER #226 @ $1D708 - STRING #226 @ $1F2F0
+
+#WRITE(Ptr, $1D708)
+//神谷 ｢<$09><$20>解<$94><$20>剖してやるぜあ－－－－っ!!」<end>
+Kamiya:để tao giải phẫu mày luôn--!<end>
+
+//POINTER #227 @ $1D70A - STRING #227 @ $1F31E
+
+#WRITE(Ptr, $1D70A)
+//神谷 ｢てやぁ－－－っ!!」<end>
+Kamiya:waaa--!<end>
+
+//POINTER #228 @ $1D70C - STRING #228 @ $1F33C
+
+#WRITE(Ptr, $1D70C)
+//神谷 ｢きえ－－－－っ!!」<end>
+Kamiya:biến đi----!<end>
+
+//POINTER #229 @ $1D70E - STRING #229 @ $1F35A
+
+#WRITE(Ptr, $1D70E)
+//神谷 ｢はははは．．．．」<end>
+Kamiya:hahahaha...<end>
+
+//POINTER #230 @ $1D710 - STRING #230 @ $1F372
+
+#WRITE(Ptr, $1D710)
+//神谷 ｢ひとり<$4F><$20>残らず<$17><$20>消してやる．．．．」<end>
+Kamiya:tao xử hết không sót đứa nào...<end>
+
+//POINTER #231 @ $1D712 - STRING #231 @ $1F39C
+
+#WRITE(Ptr, $1D712)
+//神谷 ｢ゆけっ!!」<end>
+Kamiya:đi nào!<end>
+
+//POINTER #232 @ $1D714 - STRING #232 @ $1F3B2
+
+#WRITE(Ptr, $1D714)
+//神谷 ｢うひゃひゃ．．．．キレたぜえ．．．．!!」<end>
+Kamiya:uhihi..Đã quá..!<end>
+
+//POINTER #233 @ $1D716 - STRING #233 @ $1F3DE
+
+#WRITE(Ptr, $1D716)
+//神谷 ｢<$B7>魔<$10>がわいてきたぜえ．．．．フェフェフェ!」<end>
+Kamiya:sức lực tràn trề...phê phê!<end>
+
+//POINTER #234 @ $1D718 - STRING #234 @ $1F410
+
+#WRITE(Ptr, $1D718)
+//神谷 ｢ただのブドウ<$37><$20>糖だったか．．．．チイッ!!」<end>
+Kamiya:tặc!Chỉ là nước đường thôi sao!<end>
+
+//POINTER #235 @ $1D71A - STRING #235 @ $1F442
+
+#WRITE(Ptr, $1D71A)
+//神谷 ｢<$37><$20>闘<$20><$20>志が<$C6><$20>燃えてきたぜあ~っ!!」<end>
+Kamiya:đấu chí tao đang tràn trề!<end>
+
+//POINTER #236 @ $1D71C - STRING #236 @ $1F470
+
+#WRITE(Ptr, $1D71C)
+//神谷 ｢だてに<$A1><$20>患<$27><$20>者は<$A8><$20>診てねえぜ!!」<end>
+Kamiya:đừng coi tao là lang băm!<end>
+
+//POINTER #237 @ $1D71E - STRING #237 @ $1F49C
+
+#WRITE(Ptr, $1D71E)
+//神谷 ｢うおっ．．．．!!」<end>
+Kamiya:úi..!<end>
+
+//POINTER #238 @ $1D720 - STRING #238 @ $1F4B6
+
+#WRITE(Ptr, $1D720)
+//刃霧 ｢<$20><$20>死<$C9><$20>紋<$28><$20>十<$97><$20>字<$3D><$20>班!!!」<end>
+Hagiri:<$39><$20>Tử v<$41><$20>ăn t<$42><$20>hập <$12><$20>tự <$44><$20>ban!<end>
+
+//POINTER #239 @ $1D722 - STRING #239 @ $1F4DC
+
+#WRITE(Ptr, $1D722)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7>～<$11> イ ン<end>
+Búng xu<end>
+
+//POINTER #240 @ $1D724 - STRING #240 @ $1F4F2
+
+#WRITE(Ptr, $1D724)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10>ダ イ ス<end>
+Búng xí ngầu<end>
+
+//POINTER #241 @ $1D726 - STRING #241 @ $1F508
+
+#WRITE(Ptr, $1D726)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$0B><$20>岩<$D7><$10><$45><$20>石<end>
+Búng nham thạch<end>
+
+//POINTER #242 @ $1D728 - STRING #242 @ $1F520
+
+#WRITE(Ptr, $1D728)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10>ダ － ツ<end>
+Phi tiêu<end>
+
+//POINTER #243 @ $1D72A - STRING #243 @ $1F536
+
+#WRITE(Ptr, $1D72A)
+//刃霧 ｢たぁっ!!」<end>
+Hagiri:taaa!<end>
+
+//POINTER #244 @ $1D72C - STRING #244 @ $1F54C
+
+#WRITE(Ptr, $1D72C)
+//刃霧 ｢はっ!!!」<end>
+Hagiri:haaa!<end>
+
+//POINTER #245 @ $1D72E - STRING #245 @ $1F562
+
+#WRITE(Ptr, $1D72E)
+//刃霧 ｢たぁぁぁ－－－っ!!!」<end>
+Hagiri:taaaaaa---!<end>
+
+//POINTER #246 @ $1D730 - STRING #246 @ $1F584
+
+#WRITE(Ptr, $1D730)
+//刃霧 ｢はぁぁぁぁぁぁっ!!!」<end>
+Hagiri:haaaaaaaa!<end>
+
+//POINTER #247 @ $1D732 - STRING #247 @ $1F5A6
+
+#WRITE(Ptr, $1D732)
+//樹 ｢<$9C><$20>裏<$9E><$20>男よ、まかせた．．．．」<end>
+Itsuki:Ura-otoko,nhờ ngươi xử lý...<end>
+
+//POINTER #248 @ $1D734 - STRING #248 @ $1F5C8
+
+#WRITE(Ptr, $1D734)
+//樹 ｢<$9C><$20>裏<$9E><$20>男よ、のみこめ．．．．」<end>
+Itsuki:Ura-otoko,nuốt vào đi...<end>
+
+//POINTER #249 @ $1D736 - STRING #249 @ $1F5EA
+
+#WRITE(Ptr, $1D736)
+//樹 ｢<$9F><$20>影ノ<$30><$20>手よ<end>
+Itsuki:này<$2E><$20> ảnh t<$2F><$20>hủ,<end>
+
+//POINTER #250 @ $1D738 - STRING #250 @ $1F5FE
+
+#WRITE(Ptr, $1D738)
+//樹 ｢<$9F><$20>影ノ<$30><$20>手よ、<$A6><$20>頼むぞ!」<end>
+Itsuki:này<$2E><$20> ảnh t<$2F><$20>hủ,nhờ ngươi đấy!<end>
+
+//POINTER #251 @ $1D73A - STRING #251 @ $1F620
+
+#WRITE(Ptr, $1D73A)
+//樹 ｢<$9F><$20>影ノ<$30><$20>手よ、<$41><$20>封じり!」<end>
+Itsuki:này<$2E><$20> ảnh t<$2F><$20>hủ,khóa nó đi!<end>
+
+//POINTER #252 @ $1D73C - STRING #252 @ $1F642
+
+#WRITE(Ptr, $1D73C)
+//樹 ｢ゆけ．．．．<$9F><$20>影ノ<$30><$20>手よ．．．．」<end>
+Itsuki:đi nào...Hỡi<$2E><$20> ảnh t<$2F><$20>hủ...<end>
+
+//POINTER #253 @ $1D73E - STRING #253 @ $1F664
+
+#WRITE(Ptr, $1D73E)
+//樹 ｢ゆけ．．．．<$9F><$20>影ノ<$30><$20>手たちよ．．．．」<end>
+Itsuki:đi nào...Hỡi các<$2E><$20> ảnh t<$2F><$20>hủ...<end>
+
+//POINTER #254 @ $1D740 - STRING #254 @ $1F68A
+
+#WRITE(Ptr, $1D740)
+//『<$9C><$20>裏<$9E><$20>男が<$0D><$20>吸<$23><$20>収した!』<end>
+Ura-otoko đã hấp thu linh khí!<end>
+
+//POINTER #255 @ $1D742 - STRING #255 @ $1F6A8
+
+#WRITE(Ptr, $1D742)
+//『<$9C><$20>裏<$9E><$20>男にのみこまれた!』<end>
+Bị Ura-otoko nuốt vào bụng rồi!<end>
+
+//POINTER #256 @ $1D744 - STRING #256 @ $1F6C6
+
+#WRITE(Ptr, $1D744)
+//ミノル ｢きみは、オレには<$08><$20>勝てない」<end>
+Minoru:trẻ con không thắng được ta đâu.<end>
+
+
+//POINTER #257 @ $1D746 - STRING #257 @ $1F6EE
+
+#WRITE(Ptr, $1D746)
+//シノブ ｢もう、<$AD><$20>休みたまえ．．．．」<end>
+Shinobu:thôi,nghỉ một tí đi...<end>
+
+//POINTER #258 @ $1D748 - STRING #258 @ $1F712
+
+#WRITE(Ptr, $1D748)
+//シノブ ｢はははははははははははは．．．．」<end>
+Shinobu:hahahahaha...<end>
+
+//POINTER #259 @ $1D74A - STRING #259 @ $1F73C
+
+#WRITE(Ptr, $1D74A)
+//仙水 ｢たあぁぁ－－－－!」<end>
+Sensui:taaaaaa--!<end>
+
+//POINTER #260 @ $1D74C - STRING #260 @ $1F75A
+
+#WRITE(Ptr, $1D74C)
+//カズヤ ｢クソガキがぁぁぁ－－－－!!」<end>
+Kazuya:đồ nhóc con thối tha--------!<end>
+
+//POINTER #261 @ $1D74E - STRING #261 @ $1F784
+
+#WRITE(Ptr, $1D74E)
+//カズヤ ｢くらえぃっ!!」<end>
+Kazuya:đỡ nè!<end>
+
+//POINTER #262 @ $1D750 - STRING #262 @ $1F7A0
+
+#WRITE(Ptr, $1D750)
+//仙水 ｢<$52><$20>裂<$C2><$20>破<$41><$20>風<$2A><$20>陣<$11><$20>拳!」<end>
+Sensui:<$32><$20>Liệt <$33><$20>phá <$14><$20>phong <$18><$20>trận <$08><$20>quyền!<end>
+
+//POINTER #263 @ $1D752 - STRING #263 @ $1F7C2
+
+#WRITE(Ptr, $1D752)
+//仙水 ｢<$52><$20>裂<$23><$20>蹴<$05><$20>黄<$1F><$20>斬<$AE><$20>脚!」<end>
+Sensui:<$30><$20>Liệt <$31><$20>thúc <$34><$20>hoàng <$35><$20>trảm c<$36><$20>ước!<end>
+
+//POINTER #264 @ $1D754 - STRING #264 @ $1F7E4
+
+#WRITE(Ptr, $1D754)
+//仙水 ｢<$52><$20>裂<$23><$20>蹴<$15><$20>紅<$0D><$20>球<$3B><$20>波!」<end>
+Sensui:<$30><$20>Liệt <$31><$20>thúc <$37><$20>hồng <$38><$20>cầu <$03><$20>ba!<end>
+
+//POINTER #265 @ $1D756 - STRING #265 @ $1F806
+
+#WRITE(Ptr, $1D756)
+//仙水 ｢<$52><$20>裂<$23><$20>蹴<$20><$20>紫<$04><$20>炎<$32><$20>弾!」<end>
+Sensui:<$30><$20>Liệt <$31><$20>thúc<$39><$20> tử <$3A><$20>viêm <$0D><$20>đạn!<end>
+
+//POINTER #266 @ $1D758 - STRING #266 @ $1F828
+
+#WRITE(Ptr, $1D758)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10><$0C><$20>気 <$15><$20>硬 <$B4><$20>銃<end>
+Khí ngạnh súng<end>
+
+//POINTER #267 @ $1D75A - STRING #267 @ $1F844
+
+#WRITE(Ptr, $1D75A)
+//仙水 ｢くらえっ!!」<end>
+Sensui:tiếp chiêu!<end>
+
+//POINTER #268 @ $1D75C - STRING #268 @ $1F85C
+
+#WRITE(Ptr, $1D75C)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$D7><$10><$2C><$20>聖 <$15><$20>光 <$0C><$20>気<end>
+Thánh quang khí<end>
+
+//POINTER #269 @ $1D75E - STRING #269 @ $1F878
+
+#WRITE(Ptr, $1D75E)
+//カズヤ ｢<$CB><$20>調<$20><$20>子にのんじゃねェ!!」<end>
+Kazuya:đừng hòng lên mặt!<end>
+
+//POINTER #270 @ $1D760 - STRING #270 @ $1F8A0
+
+#WRITE(Ptr, $1D760)
+//妖狐 ｢はぁっ!!」<end>
+Yêu hồ:haaa!<end>
+
+//POINTER #271 @ $1D762 - STRING #271 @ $1F8B6
+
+#WRITE(Ptr, $1D762)
+//妖狐 ｢はぁぁ－－－－っ!!」<end>
+Yêu hồ:haaa---!<end>
+
+//POINTER #272 @ $1D764 - STRING #272 @ $1F8D6
+
+#WRITE(Ptr, $1D764)
+//妖狐 ｢<$28><$20>樹<$B9><$20>霊<$4D><$20>妖<$1F><$20>斬<$11><$20>剣!」<end>
+Yêu hồ:<$3C><$20>Thụ <$3D><$20>linh <$3E><$20>yêu <$3F><$20>trảm <$08><$20>kiếm!<end>
+
+//POINTER #273 @ $1D766 - STRING #273 @ $1F8F8
+
+#WRITE(Ptr, $1D766)
+//妖狐 ｢おまえは<$B5><$20>殺すぞ!」<end>
+Yêu hồ:ta sẽ giết ngươi!<end>
+
+//POINTER #274 @ $1D768 - STRING #274 @ $1F916
+
+#WRITE(Ptr, $1D768)
+//妖狐 ｢おしおきの<$1A><$20>時<$A1><$20>間だ」<end>
+Yêu hồ:đã tới giờ hành hình.<end>
+
+//POINTER #275 @ $1D76A - STRING #275 @ $1F936
+
+#WRITE(Ptr, $1D76A)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10> <$28><$20>樹<$4D><$20>妖<$20><$20>棘<$1F><$20>斬<$12><$20>撃<end>
+<$3C><$20>Thụ <$3E><$20>yêu <$39><$20>cức <$3F><$20>trảm <$40><$20>kích<end>
+
+//POINTER #276 @ $1D76C - STRING #276 @ $1F956
+
+#WRITE(Ptr, $1D76C)
+//<$D7><$10><$D7><$10><$D7><$10> <$BA><$20>浮<$4D><$20>葉<$08><$20>科の<$4A><$20>魔<$09><$20>界<$25><$20>植<$44><$20>物<end>
+Thực vật ma giới chi lá nổi<end>
+
+//POINTER #277 @ $1D76E - STRING #277 @ $1F97E
+
+#WRITE(Ptr, $1D76E)
+//<$D7><$10><$D7><$10><$D7><$10><$D7><$10><$CA><$20>薬<$4D><$20>妖<$2E><$20>草の<$08><$20>花<$42><$20>粉<end>
+Phấn hoa dược yêu thảo<end>
+
+//POINTER #278 @ $1D770 - STRING #278 @ $1F99E
+
+#WRITE(Ptr, $1D770)
+//オジギソウ 『ギャ－－－－ス!!』<end>
+Cây mắc cỡ:giaa---ss!<end>
+
+//POINTER #279 @ $1D772 - STRING #279 @ $1F9C2
+
+#WRITE(Ptr, $1D772)
+//妖狐 ｢<$8F><$20>薇<$90><$20>薔<$91><$20>棘<$92><$20>鞭<$93><$20>刃!!」<end>
+Yêu hồ:<$19><$20>Tường vi <$1A><$20>cức tiên nhận!<end>
+
+//POINTER #280 @ $1D774 - STRING #280 @ $1F9E6
+
+#WRITE(Ptr, $1D774)
+//『<$0D><$20>吸<$10><$20><$08><$11><$25><$20>植<$44><$20>物を<$24><$20>召<$A1><$20>喚した!!』<end>
+Yêu hồ triệu hồi thực vật hút máu!<end>

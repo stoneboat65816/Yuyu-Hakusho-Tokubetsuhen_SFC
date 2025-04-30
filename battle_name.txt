@@ -1,0 +1,71 @@
+#VAR(Table,TABLE)
+#ADDTBL("Yuyuvn.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $00, 16)
+
+#JMP($318030)
+
+#WRITE(Ptr, $318000)
+Yūsuke<end>
+
+#WRITE(Ptr, $318002)
+Kuwabara<end>
+
+#WRITE(Ptr, $318004)
+Kurama<end>
+
+#WRITE(Ptr, $318006)
+Hiei<end>
+
+#WRITE(Ptr, $318008)
+Genkai<end>
+
+#WRITE(Ptr, $31800A)
+Rinku<end>
+
+#WRITE(Ptr, $31800C)
+Tōya<end>
+
+#WRITE(Ptr, $31800E)
+Jin<end>
+
+#WRITE(Ptr, $318010)
+Tử Tử<end>
+
+#WRITE(Ptr, $318012)
+Karasu<end>
+
+#WRITE(Ptr, $318014)
+Vũ Uy<end>
+
+#WRITE(Ptr, $318016)
+Toguro anh<end>
+
+#WRITE(Ptr, $318018)
+Toguro em<end>
+
+#WRITE(Ptr, $31801A)
+Kamiya<end>
+
+#WRITE(Ptr, $31801C)
+Hagiri<end>
+
+#WRITE(Ptr, $31801E)
+Itsuki<end>
+
+#WRITE(Ptr, $318020)
+Sensui<end>
+
+#WRITE(Ptr, $318022)
+Yêu hồ<end>
+
+#WRITE(Ptr, $318024)
+Genkai trẻ<end>
+
+#WRITE(Ptr, $318026)
+Toguro em<end>
+
+#WRITE(Ptr, $318028)
+Quạ đen<end>

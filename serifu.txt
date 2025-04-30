@@ -1,0 +1,185 @@
+#VAR(Table,TABLE)
+#ADDTBL("serifu.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $00, 16)
+
+#JMP($320000)
+Hãy nhấn nút START nếu muốn bỏ qua<line>
+đoạn thoại mở đầu này,và nhấn nút A<line>
+để tiếp tục thoại.<pause><clear2>
+Nhấn một trong các nút B,X,Y,L,R<line>
+để thay đổi màu chữ.<pause><line>
+Nhấn Select để trả về màu chữ<line>
+mặc định.<pause><clear2>
+Đây là bản dịch tiếng Việt cho<line>
+Yū Yū Hakusho Tokubetsu-hen<line>
+(U-du Bạch thư phần đặc biệt) được<line>
+phát hành cho máy chơi game Sufami.<pause><clear2>
+Bản dịch này chạy hoàn hảo trên phần<line>
+cứng thật cũng như tất cả các giả lập<line>
+của hệ máy này,như Bsnes, Higan,<line>
+Snes9X,Zsnes,Mesen,vân vân.<pause><clear2>
+
+Đây cũng là bản dịch đầy đủ mọi thành<line>
+phần trong game,thay thế cho bản<line>
+tiếng Việt năm 2017,vốn chỉ được dịch<line>
+phần thoại trong trận đấu.<pause><clear2>
+
+Có một vài điều cần lưu ý về bản dịch<line>
+này trước khi bạn chơi.<pause><clear2>
+Thứ nhất,Rom và mã nguồn của bản dịch<line>
+đi kèm với bản dịch tiếng Việt của<line>
+sách hướng dẫn chơi từ nhà sản xuất.<pause><clear2>
+Tất cả đều được cung cấp miễn phí<line>
+như truyền thống của thuyền đá<line>
+từ năm 2009 đến nay.<pause><clear2>
+
+
+Mọi bản dịch của thuyền đá đều là<line>
+miễn phí.Trước đây đã thế,bây giờ<line>
+vẫn vậy và mãi về sau cũng sẽ như<line>
+vậy.Điều này là bất biến.<pause><clear2>
+Nếu bạn biết website nào cung cấp<line>
+các bản dịch game của thuyền đá mà<line>
+đòi trả phí thì hãy tẩy chay nó.<pause><clear2>
+Thứ hai,bản dịch này không được sự<line>
+cho phép của Nintendō hay Namco,<line>
+cho nên có thể nói đây là một sự vi<line>
+phạm luật bản quyền.<pause><clear2>
+Điều này là sự thật không thể chối<line>
+cãi,không thể biện minh.<pause><clear2>
+Thứ ba,tuy bản dịch này là một sự xâm<line>
+hại tác quyền,nhưng nó không có ý đồ<line>
+gây tổn hại về kinh tế cho chính hãng<line>
+(Nintendō và Namco).<pause><clear2>
+Tác giả bản dịch (thuyền đá) cũng<line>
+không có ý đồ thu lợi về mặt kinh tế<line>
+từ bản dịch này qua bất cứ hình thức<line>
+nào,kể cả donate.<pause><clear2>
+thuyền đá có 3 mục đích khi làm ra<line>
+và công bố bản dịch này.<pause><clear2>
+Đó là lưu giữ chút hoài niệm về quá<line>
+khứ,truyền bá văn hóa retro game của<line>
+thế kỷ trước đến đại chúng ngày nay,<line>
+và mài dũa năng lực coding của mình.<pause><clear2>
+
+Thứ tư,đây chỉ là một bản dịch tiếng<line>
+Việt bình thường chứ không phải bản<line>
+"Việt hóa".Đây là hai khái niệm khác<line>
+nhau hoàn toàn.<pause><clear2>
+Theo hiểu biết của thuyền đá thì bản<line>
+dịch tiếng Việt này là bản dịch duy<line>
+nhất cho game này tính tới thời điểm<line>
+bản tiếng Việt được công bố.<pause><clear2>
+Không có bản dịch tiếng Anh hay bất<line>
+cứ bản dịch ngôn ngữ nào khác ngoài<line>
+bản tiếng Nhật và bản tiếng Việt này.<pause><clear2>
+
+Thứ năm,bản dịch tiếng Việt này sử<line>
+dụng song song âm tiếng Nhật và phiên<line>
+âm Hán Việt cho tên các chiêu thức<line>
+và tên nhân vật trong game.<pause><clear2>
+Chẳng hạn như đối với 2 chữ Hán<line>
+蔵馬 thì trong bản dịch để song song cả<line>
+2 cách đọc là "Tàng Mã" cho phiên âm<line>
+Hán Việt và "Kurama" cho âm Nhật.<pause><clear2>
+
+Có thể bạn thấy lạ,nhưng mà việc này<line>
+hoàn toàn bình thường như chuyện<line>
+người Việt vẫn dùng phiên âm Hán Việt<line>
+để đọc tên rất nhiều nước Âu Mỹ.<pause><clear2>
+
+Nó hoàn toàn bình thường như khi bạn<line>
+đọc tên nước 日本 thành "Nhật Bản" thay<line>
+vì đọc đúng theo cách người Nhật vẫn<line>
+đọc là "Nippon" hoặc "Nihon".<pause><clear2>
+Nó cũng hoàn toàn bình thường như khi<line>
+bạn đọc tên nước England thành âm<line>
+Hán Việt là "Anh quốc" vậy.<pause><clear2>
+Tại sao ta có thể đọc 日本 thành<line>
+"Nhật Bản" thay vì "Nippon" mà lại<line>
+không chấp nhận việc đọc 蔵馬 thành<line>
+"Tàng Mã" thay vì "Kurama"?<pause><clear2>
+Đó chỉ là câu chuyện thói quen,khẩu<line>
+vị chứ không có tính đúng sai hay<line>
+quy tắc luật lệ nào bên trong nó.<pause><clear2>
+Bộ truyện tranh Yū Yū Hakusho được<line>
+xuất bản (lậu) lần đầu tiên ở Việt Nam<line>
+vào khoảng năm 1998.<pause><clear2>
+Các bản dịch (lậu) lúc đó đều để tên<line>
+nhân vật trong tryện theo âm Hán Việt<line>
+như "U Trợ", "Tàng Mã", "Huyễn Hải",<line>
+vân vân.<pause><clear2>
+Cho nên trong bản dịch này cũng để<line>
+thêm cách đọc âm Hán Việt đối với tên<line>
+nhân vật và tên chiêu thức bên cạnh<line>
+âm gốc tiếng Nhật.<pause><clear2>
+Đây cũng là một hành động gợi lại<line>
+những hoài niệm trong lòng một số<line>
+người.<pause><clear2>
+Và việc chua thêm cách đọc Hán Việt<line>
+cho tên các chiêu thức cũng có thể<line>
+mang lại bầu không khí "chưởng" cho<line>
+bản dịch game này.<pause><clear2>
+
+Thứ sáu,trong bản dịch này còn có<line>
+thêm một số tính năng mà trong bản<line>
+gốc tiếng Nhật và bản dịch năm 2017<line>
+không hề có.<pause><clear2>
+Nếu liệt kê cụ thể thì là như sau.<line>
+1.Điều khiển sprite nhân vật di<line>
+chuyển sang trái,sang phải trong<line>
+trận đấu.<pause><clear2>
+2.Nhấn đúng nút vào đúng lúc để luôn<line>
+tránh đòn của đối thủ.<pause><clear2>
+3.Nhấn đúng nút vào đúng lúc để luôn<line>
+đánh trúng đối thủ.<pause><clear2>
+4.Nhấn đúng nút vào đúng lúc để hồi<line>
+phục thể lực (HP).<pause><clear2>
+5.Nhấn đúng nút vào đúng lúc để hồi<line>
+phục linh khí (MP).<pause><clear2>
+6.Nhấn đúng nút vào đúng lúc để hồi<line>
+phục thanh thăng bằng (BP).<pause><clear2>
+Những tính năng này có thể gây ảnh<line>
+hưởng rất lớn tới độ khó/dễ của game,<line>
+từ đó ảnh hưởng tới trải nghiệm của<line>
+người chơi.<pause><clear2>
+Vì vậy tôi không công bố cách bấm nút<line>
+ở đây,nhưng bạn có thể tự mò trong<line>
+phần mã nguồn nếu đọc hiểu được nó.<pause><clear2>
+
+Bạn cũng có thể xem gợi ý cách bấm<line>
+tại kênh Youtube dưới đây:<line>
+https://www.youtube.com/@Stoneboat<pause><clear2>
+Nếu không bấm những nút này vào đúng<line>
+lúc thì cũng như khi bạn chơi một bản<line>
+dịch bình thường,không ảnh hưởng gì<line>
+tới trải nghiệm.<pause><clear2>
+
+Thứ bảy,bản dịch này được cung cấp<line>
+cùng mã nguồn.Cho nên bạn hoàn toàn<line>
+có thể chỉnh sửa lại phần dịch thoại<line>
+để có một bản dịch theo ý mình.<pause><clear2>
+Dĩ nhiên,bạn cũng hoàn toàn có thể<line>
+chỉnh sửa,thêm bớt các tính năng<line>
+game để tạo thành bản game như ý.<pause><clear2>
+Và tất nhiên rồi,để làm được điều này<line>
+thì bạn cần hiểu về phần cứng của máy<line>
+Sufami và ngôn ngữ phần mềm WDC65816<line>
+của nó.<pause><clear2>
+Nói cách khác,để có thể vọc được mã<line>
+nguồn của bản dịch thì bạn cần phải<line>
+biết được mình đang làm gì.<pause><clear2>
+
+Ngoài ra,bản dịch này cũng đã được<line>
+thiết kế lại một số chỗ trong các<line>
+khung thoại,vị trí hiển thị thoại để<line>
+phù hợp nhất với ngôn ngữ Việt.<pause><clear2>
+
+Cuối cùng,cảm ơn vì đã đọc hết<line>
+những điểm lưu ý như vừa rồi.<line>
+Hãy nhấn A để trở về phần chơi chính.<pause><clear2>
+
+<end>
